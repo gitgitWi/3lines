@@ -5,7 +5,11 @@
   "workspaces": [
     "packages/**"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev:web": "SKIP_ENV_VALIDATION=true pnpm --filter \"web\" dev",
+    "build": "pnpm build:local:web",
+    "build:local:web": "SKIP_ENV_VALIDATION=true pnpm --filter \"web\" build"
+  },
   "packageManager": "pnpm@7.15.0",
   "devDependencies": {
     "eslint": "^8.26.0",
