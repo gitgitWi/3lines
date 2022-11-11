@@ -1,10 +1,6 @@
 import NextAuth, { type NextAuthOptions } from "next-auth";
-import DiscordProvider from "next-auth/providers/discord";
-
-import { env } from "../../../env/server.mjs";
 
 export const authOptions: NextAuthOptions = {
-  // Include user.id on session
   callbacks: {
     session({ session, user }) {
       if (session.user) {
@@ -13,14 +9,8 @@ export const authOptions: NextAuthOptions = {
       return session;
     },
   },
-  // Configure one or more authentication providers
-  providers: [
-    DiscordProvider({
-      clientId: env.DISCORD_CLIENT_ID,
-      clientSecret: env.DISCORD_CLIENT_SECRET,
-    }),
-    // ...add more providers here
-  ],
+
+  providers: [],
 };
 
 export default NextAuth(authOptions);
