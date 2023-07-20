@@ -12,59 +12,6 @@ importers:
       prettier: 2.7.1
       typescript: 4.8.4
 
-  packages/apps/3lines:
-    specifiers:
-      '@tanstack/react-query': ^4.10.0
-      '@trpc/client': 10.0.0-rc.4
-      '@trpc/next': 10.0.0-rc.4
-      '@trpc/react-query': 10.0.0-rc.4
-      '@trpc/server': 10.0.0-rc.4
-      '@types/node': ^18.0.0
-      '@types/react': ^18.0.14
-      '@types/react-dom': ^18.0.5
-      '@typescript-eslint/eslint-plugin': ^5.33.0
-      '@typescript-eslint/parser': ^5.33.0
-      autoprefixer: ^10.4.7
-      eslint: ^8.26.0
-      eslint-config-next: 13.0.2
-      next: 13.0.2
-      next-auth: ^4.15.1
-      postcss: ^8.4.14
-      prettier: ^2.7.1
-      prettier-plugin-tailwindcss: ^0.1.13
-      react: 18.2.0
-      react-dom: 18.2.0
-      superjson: 1.9.1
-      tailwindcss: ^3.2.0
-      typescript: ^4.8.4
-      zod: ^3.18.0
-    dependencies:
-      '@tanstack/react-query': 4.14.6_biqbaboplfbrettd7655fr4n2y
-      '@trpc/client': 10.0.0-rc.4_@trpc+server@10.0.0-rc.4
-      '@trpc/next': 10.0.0-rc.4_7svaujn233hnsxbytvvkma6szu
-      '@trpc/react-query': 10.0.0-rc.4_5wlovuqpmemljzmj4ocy4sh6fm
-      '@trpc/server': 10.0.0-rc.4
-      next: 13.0.2_biqbaboplfbrettd7655fr4n2y
-      next-auth: 4.16.4_pknogjuzx4bv7zxtatcb2ahtsq
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      superjson: 1.9.1
-      zod: 3.19.1
-    devDependencies:
-      '@types/node': 18.11.9
-      '@types/react': 18.0.25
-      '@types/react-dom': 18.0.8
-      '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
-      '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
-      autoprefixer: 10.4.13_postcss@8.4.19
-      eslint: 8.27.0
-      eslint-config-next: 13.0.2_rmayb2veg2btbq6mbmnyivgasy
-      postcss: 8.4.19
-      prettier: 2.7.1
-      prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
-      tailwindcss: 3.2.3_postcss@8.4.19
-      typescript: 4.8.4
-
   packages/apps/web:
     specifiers:
       '@tanstack/react-query': ^4.10.0
@@ -1807,51 +1754,6 @@ packages:
       uuid: 8.3.2
     dev: false
 
-  /next/13.0.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-uQ5z5e4D9mOe8+upy6bQdYYjo/kk1v3jMW87kTy2TgAyAsEO+CkwRnMgyZ4JoHEnhPZLHwh7dk0XymRNLe1gFw==}
-    engines: {node: '>=14.6.0'}
-    hasBin: true
-    peerDependencies:
-      fibers: '>= 3.1.0'
-      node-sass: ^6.0.0 || ^7.0.0
-      react: ^18.2.0
-      react-dom: ^18.2.0
-      sass: ^1.3.0
-    peerDependenciesMeta:
-      fibers:
-        optional: true
-      node-sass:
-        optional: true
-      sass:
-        optional: true
-    dependencies:
-      '@next/env': 13.0.2
-      '@swc/helpers': 0.4.11
-      caniuse-lite: 1.0.30001431
-      postcss: 8.4.14
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      styled-jsx: 5.1.0_react@18.2.0
-      use-sync-external-store: 1.2.0_react@18.2.0
-    optionalDependencies:
-      '@next/swc-android-arm-eabi': 13.0.2
-      '@next/swc-android-arm64': 13.0.2
-      '@next/swc-darwin-arm64': 13.0.2
-      '@next/swc-darwin-x64': 13.0.2
-      '@next/swc-freebsd-x64': 13.0.2
-      '@next/swc-linux-arm-gnueabihf': 13.0.2
-      '@next/swc-linux-arm64-gnu': 13.0.2
-      '@next/swc-linux-arm64-musl': 13.0.2
-      '@next/swc-linux-x64-gnu': 13.0.2
-      '@next/swc-linux-x64-musl': 13.0.2
-      '@next/swc-win32-arm64-msvc': 13.0.2
-      '@next/swc-win32-ia32-msvc': 13.0.2
-      '@next/swc-win32-x64-msvc': 13.0.2
-    transitivePeerDependencies:
-      - '@babel/core'
-      - babel-plugin-macros
-    dev: false
-
   /next/13.0.2_m5sxuueb27gk6ddc5gums6vtgq:
     resolution: {integrity: sha512-uQ5z5e4D9mOe8+upy6bQdYYjo/kk1v3jMW87kTy2TgAyAsEO+CkwRnMgyZ4JoHEnhPZLHwh7dk0XymRNLe1gFw==}
     engines: {node: '>=14.6.0'}
@@ -2012,7 +1914,7 @@ packages:
       levn: 0.4.1
       prelude-ls: 1.2.1
       type-check: 0.4.0
-      word-wrap: 1.2.3
+      word-wrap: 1.2.4
     dev: true
 
   /p-limit/3.1.0:
@@ -2607,8 +2509,8 @@ packages:
       isexe: 2.0.0
     dev: true
 
-  /word-wrap/1.2.3:
-    resolution: {integrity: sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==}
+  /word-wrap/1.2.4:
+    resolution: {integrity: sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
